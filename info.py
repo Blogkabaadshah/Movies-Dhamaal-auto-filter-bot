@@ -27,8 +27,8 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002188008502'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002443223307').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rahul")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Rahul')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Movieguru")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Movieguru')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002188008502'))
 QR_CODE = environ.get('QR_CODE', 'https://envs.sh/wam.jpg')
 
